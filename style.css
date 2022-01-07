@@ -1,0 +1,117 @@
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+body{
+    margin: 0;
+}
+.box__heading{
+    margin-bottom: 0;
+}
+h2{
+    font-size: 3em;
+    text-align: center;
+}
+h2:after{
+    content: "";
+    display: block;
+    width: 30%;
+    background-color: black;
+    height: 2px;
+    transform: translate(110%);
+
+}
+h3{
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
+p{
+    margin: 10px 0;
+}
+
+button{
+    background-color: rgba(30, 30, 30, 0.7);
+    border: none;
+    border-radius: 10px 10px;
+    font-size: 1.2em;
+    padding: 10px 16px;
+    margin-right: 15px;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+button:hover{
+    background-color: rgba(30, 30, 30, 1);
+}
+main{
+    min-height: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #f6fae2;
+}
+.col-5{
+    overflow: hidden;
+    height: 150px;
+    width: 100%;
+    border-radius: 8px 8px;
+
+}
+.col-7{
+    margin-left: 20px;
+    width: 100%;
+    padding: 0 10px;
+}
+.food__name{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 2px black dashed;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.heading__buttons{
+    margin-bottom: 50px;
+
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+}
+.container__holder{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+
+}
+.container{
+    width: 40%;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+.row{
+    display: flex;
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        width: 60%;
+    }
+}
