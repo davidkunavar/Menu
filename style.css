@@ -4,6 +4,7 @@ img{
     object-fit: cover;
 
 }
+
 body{
     margin: 0;
 }
@@ -57,12 +58,17 @@ main{
     height: 150px;
     width: 100%;
     border-radius: 8px 8px;
-
+    background-color: black;
+    filter: blur(0.8px);
+}
+.col-5:hover{
+    filter: blur(0);
 }
 .col-7{
     margin-left: 20px;
     width: 100%;
     padding: 0 10px;
+
 }
 .food__name{
     display: flex;
@@ -104,7 +110,11 @@ main{
 .container{
     width: 40%;
     margin-bottom: 30px;
-    background-color: transparent;
+    transition: 0.4s ease-in-out;
+}
+.container:hover{
+    width: 42%;
+
 }
 .row{
     display: flex;
